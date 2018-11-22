@@ -38,6 +38,8 @@ def gen_pics(size, mode='test'):
 
 
 if __name__ == '__main__':
+    if not os.path.exists(configs.DATA_SET_PATH):
+        os.makedirs(configs.DATA_SET_PATH)
     print("Start Generating %d Training Pics..." % configs.NUM_PICS_TRAIN)
     gen_pics(configs.NUM_PICS_TRAIN, mode='train')
     print("Start Generating %d Test Pics..." % configs.NUM_PICS_TEST)

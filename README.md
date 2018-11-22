@@ -24,3 +24,5 @@ tensorflow v1.11.0
 ## 联系方式
 
 nardlin@mail.ustc.edu.cn
+OR
+berneylin@gmail.com
